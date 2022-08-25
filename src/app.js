@@ -17,7 +17,8 @@ window.onload = function() {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < domain.length; l++) {
           web_domain = pronoun[i] + adj[j] + noun[k] + domain[l];
-          console.log(web_domain);
+          document.write(web_domain);
+          document.write("<br>");
         }
       }
     }
